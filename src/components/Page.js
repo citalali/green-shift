@@ -1,42 +1,86 @@
 import React from "react";
 
-const styles = {
-  page: {
-    fontFamily: "Arial, sans-serif",
-    maxWidth: "800px",
-    margin: "0 auto",
-    padding: "20px",
-    boxSizing: "border-box",
-  },
-  nav: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: "20px",
-  },
-  link: {
-    textDecoration: "none",
-    color: "#333",
-    padding: "5px",
-    margin: "0 10px",
-  },
-  searchBar: {
-    marginBottom: "20px",
-  },
-  header: {
-    textAlign: "center",
-    marginBottom: "10px",
-  },
-  hr: {
-    border: "1px solid #ccc",
-    margin: "20px 0",
-  },
-  footer: {
-    textAlign: "center",
-  },
-};
-
 const Page = ({ children }) => {
+  const styles = {
+    page: {
+      margin: "20px",
+      padding: "20px",
+      border: "2px solid #3498db",
+      backgroundColor: "#f8f9fa",
+      borderRadius: "12px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    },
+    header: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+    },
+    h1: {
+      color: "#3498db",
+    },
+    nav: {
+      width: "100%",
+      display: "flex",
+      gap: "10px",
+      justifyContent: "center",
+    },
+    button: {
+      backgroundColor: "#3498db",
+      color: "#ffffff",
+      border: "none",
+      borderRadius: "4px",
+      padding: "8px 12px",
+      cursor: "pointer",
+    },
+    buttonHover: {
+      backgroundColor: "#21618c",
+    },
+    searchBar: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      width: "50%",
+      margin: "15px auto",
+    },
+    input: {
+      flex: "1",
+      padding: "8px",
+      border: "1px solid #3498db",
+      borderRadius: "4px",
+    },
+    searchButton: {
+      backgroundColor: "#3498db",
+      color: "#ffffff",
+      border: "none",
+      borderRadius: "4px",
+      padding: "8px 12px",
+      cursor: "pointer",
+    },
+    searchButtonHover: {
+      backgroundColor: "#21618c",
+    },
+    footer: {
+      marginTop: "20px",
+      textAlign: "center",
+    },
+    ul: {
+      listStyle: "none",
+      padding: "0",
+      display: "flex",
+      justifyContent: "center",
+    },
+    li: {
+      marginRight: "15px",
+    },
+    link: {
+      color: "#3498db",
+      textDecoration: "none",
+    },
+    linkHover: {
+      textDecoration: "underline",
+    },
+  };
+
   return (
     <div style={styles.page}>
       <nav style={styles.nav}>
