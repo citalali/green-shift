@@ -1,23 +1,24 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Head from "react-helmet"; // Assuming you are using react-helmet for head management
+import Page from "./components/Page";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="root">
+      <div>
+        <title>Create React App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </div>
+      <Page>
+        <main>
+          <p>This is the home Page</p>
+          <p>blabla</p>
+        </main>
+
+        <footer>
+          <p>testtesttest</p>
+        </footer>
+      </Page>
     </div>
   );
 }
