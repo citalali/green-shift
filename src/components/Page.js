@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
 const Page = ({ children }) => {
   const styles = {
@@ -90,9 +91,7 @@ const Page = ({ children }) => {
           </a>
         </button>
         <button>
-          <a href="/map" style={styles.link}>
-            Map
-          </a>
+          <Link to="/map">Map</Link>
         </button>
         <button>
           <a href="/about" style={styles.link}>
@@ -120,6 +119,7 @@ const Page = ({ children }) => {
       </header>
       <hr style={styles.hr} />
       <div>{children}</div>
+      <Outlet />
       <hr style={styles.hr} />
       <footer style={styles.footer}>
         <ul>

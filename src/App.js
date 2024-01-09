@@ -11,7 +11,7 @@ function App() {
       </div>
       <Page>
         <main>
-          <p>This is the home Page</p>
+          <p>This is the home Page hier steht was</p>
           <p>blabla</p>
         </main>
 
