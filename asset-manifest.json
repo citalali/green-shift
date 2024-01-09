@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/green-shift/static/js/main.545b5277.js",
+    "main.css": "/green-shift/static/css/main.34451108.css",
+    "main.js": "/green-shift/static/js/main.9e2cca39.js",
     "index.html": "/green-shift/index.html",
-    "main.545b5277.js.map": "/green-shift/static/js/main.545b5277.js.map"
+    "main.34451108.css.map": "/green-shift/static/css/main.34451108.css.map",
+    "main.9e2cca39.js.map": "/green-shift/static/js/main.9e2cca39.js.map"
   },
   "entrypoints": [
-    "static/js/main.545b5277.js"
+    "static/css/main.34451108.css",
+    "static/js/main.9e2cca39.js"
   ]
 }
