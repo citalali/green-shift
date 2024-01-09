@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/green-shift/static/css/main.34451108.css",
-    "main.js": "/green-shift/static/js/main.9e2cca39.js",
+    "main.css": "/green-shift/static/css/main.6b8ee46b.css",
+    "main.js": "/green-shift/static/js/main.3565eba2.js",
+    "static/media/map.jpg": "/green-shift/static/media/map.7d7ee86cb4d238db8f80.jpg",
     "index.html": "/green-shift/index.html",
-    "main.34451108.css.map": "/green-shift/static/css/main.34451108.css.map",
-    "main.9e2cca39.js.map": "/green-shift/static/js/main.9e2cca39.js.map"
+    "main.6b8ee46b.css.map": "/green-shift/static/css/main.6b8ee46b.css.map",
+    "main.3565eba2.js.map": "/green-shift/static/js/main.3565eba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.34451108.css",
-    "static/js/main.9e2cca39.js"
+    "static/css/main.6b8ee46b.css",
+    "static/js/main.3565eba2.js"
   ]
 }
