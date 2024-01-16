@@ -95,3 +95,9 @@ a:hover {
   text-align: center;
   color: #343510;
 }
+.artistsDiv {
+  margin-bottom: 5px;
+  padding: 1%;
+  width: 50%;
+  border: 1px solid #000000;
+}

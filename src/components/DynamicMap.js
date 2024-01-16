@@ -33,7 +33,7 @@ const DynamicMap = ({ position }) => {
                 <img
                   src={shop.picture}
                   alt={shop.name}
-                  style={{ maxWidth: "100%" }}
+                  style={{ maxWidth: "100%", maxHeight: "120px" }}
                 />
                 <h3>{shop.name}</h3>
                 <p>{shop.description}</p>
