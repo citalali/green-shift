@@ -1,25 +1,28 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./page.css";
+import icon from "./iconWide.png";
 
 const Page = ({ children }) => {
   return (
     <div>
       <nav>
         <button>
-          <a href="/">LOGO HERE</a>
+          <a href="/green-shift">
+            <img src={icon} alt="icon" height="25" />
+          </a>
         </button>
         <button>
           <Link to="/map">Map</Link>
         </button>
         <button>
-          <a href="/about">About Us</a>
+          <a href="#/about">About Us</a>
         </button>
         <button>
-          <a href="/signup">Sign Up</a>
+          <a href="#/signup">Sign Up</a>
         </button>
         <button>
-          <a href="/later">Later</a>
+          <a href="#/artists">Artists</a>
         </button>
       </nav>
       <div>
@@ -37,13 +40,19 @@ const Page = ({ children }) => {
       <footer>
         <ul>
           <li>
-            <a href="#">Impressum</a>
+            <a href="#" className="footer">
+              Impressum
+            </a>
           </li>
           <li>
-            <a href="#">Blabla</a>
+            <a href="#" className="footer">
+              Blabla
+            </a>
           </li>
           <li>
-            <a href="#">Another Thing</a>
+            <a href="#" className="footer">
+              Another Thing
+            </a>
           </li>
         </ul>
       </footer>

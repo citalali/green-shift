@@ -1,0 +1,58 @@
+{
+  "shops": [
+    {
+      "name": "Cleos Jewlery Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.52, "lng": 13.415 },
+      "picture": "https://theadventurine.com/wp-content/uploads/2020/12/Lead-830-.jpeg",
+      "description": "Explore exquisite jewelry crafted with passion and precision at Cleos Jewelry Shop.",
+      "website": "https://www.cleosjewelry.com",
+      "funFact": "Did you know? Cleos Jewelry Shop once created a record-breaking diamond necklace for a famous celebrity!"
+    },
+    {
+      "name": "xyz art Shop",
+      "address": "Hauptstr. 34",
+      "position": { "lat": 52.51, "lng": 13.405 },
+      "picture": "https://theadventurine.com/wp-content/uploads/2020/12/Lead-830-.jpeg",
+      "description": "Immerse yourself in the world of contemporary art at xyz art Shop.",
+      "website": "https://www.xyzartgallery.com",
+      "funFact": "Fun Fact: The founder of xyz art Shop is also a skilled graffiti artist known for creating vibrant street art!"
+    },
+    {
+      "name": "another Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.53, "lng": 13.425 },
+      "picture": "https://theadventurine.com/wp-content/uploads/2020/12/Lead-830-.jpeg",
+      "description": "Discover unique and trendy items at another Shop on Hauptstrasse.",
+      "website": "https://www.another-shop.com",
+      "funFact": "Fun Fact: This shop was featured in a popular travel show as a hidden gem for unique finds!"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.54, "lng": 13.435 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!"
+    },
+    {
+      "name": "Gadget Paradise",
+      "address": "Hauptstr. 45",
+      "position": { "lat": 52.55, "lng": 13.445 },
+      "picture": "https://example.com/gadget-paradise.jpg",
+      "description": "Explore the latest tech innovations and gadgets at Gadget Paradise.",
+      "website": "https://www.gadgetparadise.com",
+      "funFact": "Fun Fact: Gadget Paradise is known for organizing tech-themed treasure hunts in the city!"
+    },
+    {
+      "name": "Book Haven",
+      "address": "Hauptstr. 56",
+      "position": { "lat": 52.56, "lng": 13.455 },
+      "picture": "https://example.com/book-haven.jpg",
+      "description": "Dive into a world of stories and imagination at Book Haven - your literary escape.",
+      "website": "https://www.bookhaven.com",
+      "funFact": "Fun Fact: Book Haven hosts weekly storytelling sessions for both kids and adults, creating a community of book enthusiasts!"
+    }
+  ]
+}

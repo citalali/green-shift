@@ -1,76 +1,19 @@
-const styles = {
-  form: {
-    maxWidth: "400px",
-    margin: "0 auto",
-  },
-  h2: {
-    color: "#3498db",
-    textAlign: "center",
-  },
-  label: {
-    display: "block",
-    marginTop: "15px",
-    fontSize: "14px",
-    color: "#555",
-  },
-  input: {
-    width: "100%",
-    padding: "10px",
-    marginTop: "5px",
-    marginBottom: "15px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-    boxSizing: "border-box",
-  },
-  select: {
-    width: "100%",
-    padding: "10px",
-    marginTop: "5px",
-    marginBottom: "15px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-    boxSizing: "border-box",
-    appearance: "none",
-  },
-  textarea: {
-    width: "100%",
-    padding: "10px",
-    marginTop: "5px",
-    marginBottom: "15px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-    boxSizing: "border-box",
-  },
-  button: {
-    backgroundColor: "#3498db",
-    color: "#fff",
-    padding: "10px 15px",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-    fontSize: "16px",
-  },
-  buttonHover: {
-    backgroundColor: "#217dbb",
-  },
-};
+import styles from "./signup.css";
 
 const Signup = () => {
   return (
-    <div className={styles.root}>
-      <main className={styles.signup}>
+    <div class="blabla">
+      <main>
         <h2>Sign Up Form</h2>
-        <form className={styles.form}>
-          <label htmlFor="name" className={styles.label}>
-            Your Name:
-          </label>
+        <form class="formSign">
+          <label htmlFor="name">Your Name:</label>
           <input
             type="text"
             id="name"
             name="name"
             placeholder="Enter your name"
             required
-            className={styles.input}
+            className="inputSign"
           />
 
           <label htmlFor="email" className={styles.label}>
@@ -82,7 +25,7 @@ const Signup = () => {
             name="email"
             placeholder="Enter your email"
             required
-            className={styles.input}
+            className="inputSign"
           />
 
           <label htmlFor="businessName" className={styles.label}>
@@ -94,7 +37,7 @@ const Signup = () => {
             name="businessName"
             placeholder="Enter your business name"
             required
-            className={styles.input}
+            className="inputSign"
           />
 
           <label htmlFor="category" className={styles.label}>
@@ -115,7 +58,7 @@ const Signup = () => {
             name="description"
             placeholder="Describe your business..."
             required
-            className={styles.textarea}
+            className="inputSign"
           ></textarea>
 
           <label htmlFor="website" className={styles.label}>
@@ -126,7 +69,7 @@ const Signup = () => {
             id="website"
             name="website"
             placeholder="Enter your website URL"
-            className={styles.input}
+            className="inputSign"
           />
 
           <button type="submit" className={styles.button}>
