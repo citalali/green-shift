@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/green-shift/static/css/main.2f7eb6da.css",
+    "main.css": "/green-shift/static/css/main.fd3ffb77.css",
     "main.js": "/green-shift/static/js/main.75da958d.js",
     "static/media/teamImg.png": "/green-shift/static/media/teamImg.c9ad384db64a298e57b3.png",
     "static/media/cleo.png": "/green-shift/static/media/cleo.b4e71f02eb7cc02b8424.png",
@@ -15,11 +15,11 @@
     "static/media/hut.svg": "/green-shift/static/media/hut.ee8bd0362c92960073ed08edc448bd7b.svg",
     "static/media/outlinedSquare.svg": "/green-shift/static/media/outlinedSquare.ede91a2688b83b7c66da2b73d0643bc6.svg",
     "index.html": "/green-shift/index.html",
-    "main.2f7eb6da.css.map": "/green-shift/static/css/main.2f7eb6da.css.map",
+    "main.fd3ffb77.css.map": "/green-shift/static/css/main.fd3ffb77.css.map",
     "main.75da958d.js.map": "/green-shift/static/js/main.75da958d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f7eb6da.css",
+    "static/css/main.fd3ffb77.css",
     "static/js/main.75da958d.js"
   ]
 }
