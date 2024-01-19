@@ -67,9 +67,9 @@ const MapView = () => {
         </select>
         <select id="category" name="category">
           <option value="art">Art</option>
-          <option value="music">Music</option>
-          <option value="food">Food</option>
-          <option value="other">Other</option>
+          <option value="music">Literature</option>
+          <option value="food">Pottery</option>
+          <option value="other">Art Workshops</option>
         </select>
         <button onClick={handleSearch}>Search</button>
       </div>

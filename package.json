@@ -4,6 +4,11 @@
   "homepage": "https://citalali.github.io/green-shift/#",
   "private": false,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -43,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-macros": "^3.1.0",
     "gh-pages": "^6.1.1",
     "react-router-dom": "^6.21.1"
   }

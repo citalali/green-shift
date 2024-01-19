@@ -72,7 +72,7 @@ const Signup = () => {
             className="inputSign"
           />
 
-          <button type="submit" className={styles.button}>
+          <button type="submit" className="signupButton">
             Submit
           </button>
         </form>

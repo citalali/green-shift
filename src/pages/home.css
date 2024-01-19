@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #228b22;
+  --secondary-color: rgb(79, 18, 77);
+  --background-color: #f8f9fa;
+  --text-color: #222222;
+}
+
+.homeImgDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  height: 40vw;
+  gap: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.homeImg {
+  width: 100%;
+  height: 80%;
+}
+
+.homeAbout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 0 auto; /* Center horizontally */
+  padding-left: 10%;
+  height: 40vw;
+  background-color: var(--primary-color);
+}
+
+.circles {
+  margin-top: -5%;
+  width: 15%;
+}
+
+.rightAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeAbout p {
+  color: var(--background-color);
+  font-size: 22px;
+  padding-right: 10%;
+}
+
+.homeAbout h2 {
+  color: var(--background-color);
+  font-size: 6vw;
+}
+
+.aboutUsDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 0 auto; /* Center horizontally */
+  padding-left: 5%;
+  height: 40vw;
+  padding-bottom: 10%;
+}
+
+.aboutUsDiv h2 {
+  color: var(--text-color);
+  font-size: 6vw;
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.teamImg {
+  width: 120%;
+  filter: grayscale(80%);
+}
+
+.pfeil {
+  height: 50%;
+  rotate: 180deg;
+  float: right;
+  margin-right: 30%;
+  margin-top: 10%;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.pfeil:hover {
+  animation: moveUpDown 1.5s linear infinite;
+}
+
+.aboutUsDiv p {
+  color: var(--text-color);
+  font-size: 22px;
+  width: 160%;
+  padding-right: 10%;
+}

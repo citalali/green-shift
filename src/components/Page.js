@@ -2,41 +2,37 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./page.css";
 import icon from "./iconWide.png";
+import logo from "../content/logo.png";
 
 const Page = ({ children }) => {
   return (
     <div>
-      <nav>
+      <nav className="navBar">
         <button>
           <a href="/green-shift">
-            <img src={icon} alt="icon" height="25" />
+            <img src={logo} alt="icon" height="50" />
           </a>
         </button>
         <button>
           <Link to="/map">Map</Link>
         </button>
         <button>
-          <a href="#/about">About Us</a>
-        </button>
-        <button>
           <a href="#/signup">Sign Up</a>
         </button>
         <button>
-          <a href="#/artists">Artists</a>
+          <a href="#/artists">Discover</a>
+        </button>
+        <button>
+          <a href="#/about">Login</a>
         </button>
       </nav>
-      <div>
-        {/* Add your search bar implementation here */}
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
-      </div>
       <header>
-        <h1>Green Shift</h1>
+        <h1>
+          Design <br /> the <strong>future</strong>
+        </h1>
       </header>
-      <hr />
       <div>{children}</div>
       <Outlet />
-      <hr />
       <footer>
         <ul>
           <li>

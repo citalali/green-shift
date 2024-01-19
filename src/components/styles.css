@@ -1,9 +1,9 @@
 /* Define custom variables for color palette */
-.page {
-  --primary-color: #818233;
-  --secondary-color: #e67e22;
-  --background-color: #f8f9fa;
-  --text-color: #3d3d3d;
+:root {
+  --primary-color: #343510;
+  --secondary-color: rgb(79, 18, 77);
+  --background-color: #74b3f3;
+  --text-color: #222222;
 }
 
 /* Styling for the main page container */
@@ -36,21 +36,6 @@
   justify-content: center;
 }
 
-/* Styling for buttons used in navigation */
-.button {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-/* Hover effect for buttons */
-.button:hover {
-  background-color: #21618c;
-}
-
 /* Styling for search bar container */
 .searchBar {
   display: flex;
@@ -58,24 +43,6 @@
   align-items: center;
   width: 50%;
   margin: 15px auto; /* Center the search bar */
-}
-
-/* Styling for input field within the search bar */
-.searchBar input {
-  flex: 1;
-  padding: 8px;
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
-}
-
-/* Styling for button within the search bar */
-.searchBar button {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 12px;
-  cursor: pointer;
 }
 
 /* Hover effect for button within the search bar */

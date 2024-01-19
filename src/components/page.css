@@ -1,40 +1,76 @@
+:root {
+  --primary-color: #343510;
+  --secondary-color: rgb(79, 18, 77);
+  --background-color: #f8f9fa;
+  --nav-color: #a8a8a8;
+  --text-color: #222222;
+}
+
 body {
-  margin: 20px;
-  padding: 20px;
-  border: 2px solid #818233;
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 5px;
+  background-color: var(--background-color);
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3%;
 }
 
 h1 {
-  color: #343510;
+  color: var(--text-color);
+  font-size: 4rem;
 }
 
-nav {
-  width: 100%;
+.navBar {
+  display: flex;
+  width: 40%;
+  margin-left: 30%;
   display: flex;
   gap: 10px;
   justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 18px;
+  z-index: 1000;
+  position: fixed;
+  top: 5px;
+  background-color: var(--background-color);
 }
 
-button {
-  background-color: #818233;
-  color: #ffffff;
+.navBar button {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 10px 15px;
   border: none;
   border-radius: 4px;
-  padding: 8px 12px;
   cursor: pointer;
+  font-size: 22px;
 }
 
-button:hover {
-  background-color: #343510;
+/* TO DO: fix pulse effect */
+
+.navBar a {
+  transition: transform 2s ease;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navBar a:hover {
+  text-decoration: none;
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
 }
 
 .searchBar {
@@ -50,19 +86,6 @@ input {
   padding: 8px;
   border: 1px solid #818233;
   border-radius: 4px;
-}
-
-.searchButton {
-  background-color: #818233;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.searchButton:hover {
-  background-color: #818233;
 }
 
 footer {
@@ -82,7 +105,7 @@ li {
 }
 
 a {
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
 }
 
