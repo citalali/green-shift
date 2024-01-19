@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/green-shift/static/css/main.cb033dd2.css",
-    "main.js": "/green-shift/static/js/main.ac1c22ce.js",
+    "main.css": "/green-shift/static/css/main.496746ef.css",
+    "main.js": "/green-shift/static/js/main.c4e0f536.js",
     "static/media/cleo.png": "/green-shift/static/media/cleo.b4e71f02eb7cc02b8424.png",
     "static/media/landing4.jpg": "/green-shift/static/media/landing4.9d5c683e3c4804041c99.jpg",
     "static/media/landing3.jpg": "/green-shift/static/media/landing3.a1b43e36f1be034ba5f1.jpg",
@@ -14,11 +14,11 @@
     "static/media/hut.svg": "/green-shift/static/media/hut.ee8bd0362c92960073ed08edc448bd7b.svg",
     "static/media/outlinedSquare.svg": "/green-shift/static/media/outlinedSquare.ede91a2688b83b7c66da2b73d0643bc6.svg",
     "index.html": "/green-shift/index.html",
-    "main.cb033dd2.css.map": "/green-shift/static/css/main.cb033dd2.css.map",
-    "main.ac1c22ce.js.map": "/green-shift/static/js/main.ac1c22ce.js.map"
+    "main.496746ef.css.map": "/green-shift/static/css/main.496746ef.css.map",
+    "main.c4e0f536.js.map": "/green-shift/static/js/main.c4e0f536.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb033dd2.css",
-    "static/js/main.ac1c22ce.js"
+    "static/css/main.496746ef.css",
+    "static/js/main.c4e0f536.js"
   ]
 }
