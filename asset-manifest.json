@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/green-shift/static/css/main.496746ef.css",
-    "main.js": "/green-shift/static/js/main.c4e0f536.js",
+    "main.css": "/green-shift/static/css/main.2f7eb6da.css",
+    "main.js": "/green-shift/static/js/main.75da958d.js",
+    "static/media/teamImg.png": "/green-shift/static/media/teamImg.c9ad384db64a298e57b3.png",
     "static/media/cleo.png": "/green-shift/static/media/cleo.b4e71f02eb7cc02b8424.png",
     "static/media/landing4.jpg": "/green-shift/static/media/landing4.9d5c683e3c4804041c99.jpg",
     "static/media/landing3.jpg": "/green-shift/static/media/landing3.a1b43e36f1be034ba5f1.jpg",
@@ -14,11 +15,11 @@
     "static/media/hut.svg": "/green-shift/static/media/hut.ee8bd0362c92960073ed08edc448bd7b.svg",
     "static/media/outlinedSquare.svg": "/green-shift/static/media/outlinedSquare.ede91a2688b83b7c66da2b73d0643bc6.svg",
     "index.html": "/green-shift/index.html",
-    "main.496746ef.css.map": "/green-shift/static/css/main.496746ef.css.map",
-    "main.c4e0f536.js.map": "/green-shift/static/js/main.c4e0f536.js.map"
+    "main.2f7eb6da.css.map": "/green-shift/static/css/main.2f7eb6da.css.map",
+    "main.75da958d.js.map": "/green-shift/static/js/main.75da958d.js.map"
   },
   "entrypoints": [
-    "static/css/main.496746ef.css",
-    "static/js/main.c4e0f536.js"
+    "static/css/main.2f7eb6da.css",
+    "static/js/main.75da958d.js"
   ]
 }
