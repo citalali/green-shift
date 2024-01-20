@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import { FiMenu, FiX } from "react-icons/fi";
 import "./page.css";
-import icon from "./iconWide.png";
 import logo from "../content/logo.png";
 
 const Page = ({ children }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleToggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div>
-      <nav className="navBar">
+      <button className="menuIcon" onClick={handleToggleMenu}>
+        {isMenuOpen ? <FiX /> : <FiMenu />}
+      </button>
+      <nav className={`navBar ${isMenuOpen ? "open" : ""}`}>
         <button>
           <a href="/green-shift">
             <img src={logo} alt="icon" height="50" />

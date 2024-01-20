@@ -37,6 +37,7 @@ h1 {
   position: fixed;
   top: 10px;
   background-color: var(--background-color);
+  transition: transform 0.3s ease;
 }
 
 .navBar button {
@@ -49,7 +50,20 @@ h1 {
   font-size: 22px;
 }
 
-@media screen and (max-width: 1800px) {
+.menuIcon {
+  display: none; /* Hide the menu icon by default for larger screens */
+  background: none;
+  border: none;
+  font-size: 34px;
+  cursor: pointer;
+  color: var(--text-color);
+  position: fixed;
+  top: 10px;
+  right: 10%;
+  z-index: 1001;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1800px) {
   .navBar {
     align-items: center;
     left: 50%;
@@ -61,6 +75,22 @@ h1 {
   .navBar {
     width: 40%;
     margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .navBar.open {
+    display: flex;
   }
 }
 
