@@ -26,16 +26,16 @@ h1 {
 
 .navBar {
   display: flex;
-  width: 40%;
-  margin-left: 30%;
-  display: flex;
+  min-width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
   gap: 10px;
   justify-content: center;
   border: 1px solid #000000;
   border-radius: 18px;
   z-index: 1000;
   position: fixed;
-  top: 5px;
+  top: 10px;
   background-color: var(--background-color);
 }
 
@@ -47,6 +47,21 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 22px;
+}
+
+@media screen and (max-width: 1800px) {
+  .navBar {
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .navBar {
+    width: 40%;
+    margin-left: 30%;
+  }
 }
 
 /* TO DO: fix pulse effect */
