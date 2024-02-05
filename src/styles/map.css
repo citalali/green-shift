@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #228b22;
+  --secondary-color: rgb(79, 18, 77);
+  --background-color: #f8f9fa;
+  --text-color: #222222;
+}
+
+.map {
+  padding-top: 115px;
+}
+.rightText {
+  text-align: left;
+  font-size: 24px;
+  width: 100%;
+  margin-top: -75px;
+  padding-bottom: 20px;
+}
+.rightText p {
+  width: 50%;
+  float: left;
+  position: relative;
+  left: 50%;
+  transform: translateX(-39%);
+  color: var(--text-color);
+}

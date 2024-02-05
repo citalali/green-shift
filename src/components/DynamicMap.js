@@ -2,17 +2,52 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import heart from "./icon.png";
+import heart from "../content/jewlery.png";
+import pottery from "../content/shirt.png";
+import book from "../content/pottery.png";
+import art from "../content/art.png";
+import painting from "../content/painting.png";
+
 import shopsData from "./shops.json";
 
 const DynamicMap = ({ position }) => {
-  let greenIcon = L.icon({
-    iconUrl: heart,
-    iconRetinaUrl: heart,
-    iconAnchor: [5, 55],
-    popupAnchor: [10, -44],
-    iconSize: [25, 55],
-  });
+  const iconMap = {
+    jewleryIcon: L.icon({
+      iconUrl: heart,
+      iconRetinaUrl: heart,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    potteryIcon: L.icon({
+      iconUrl: pottery,
+      iconRetinaUrl: heart,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    bookIcon: L.icon({
+      iconUrl: book,
+      iconRetinaUrl: heart,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    artIcon: L.icon({
+      iconUrl: art,
+      iconRetinaUrl: heart,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    paintingIcon: L.icon({
+      iconUrl: painting,
+      iconRetinaUrl: heart,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+  };
 
   return (
     <div style={{ width: "100%", height: "500px" }}>
@@ -27,7 +62,11 @@ const DynamicMap = ({ position }) => {
         />
 
         {shopsData.shops.map((shop, index) => (
-          <Marker key={index} position={shop.position} icon={greenIcon}>
+          <Marker
+            key={index}
+            position={shop.position}
+            icon={iconMap[shop.icon]}
+          >
             <Popup>
               <div>
                 <img

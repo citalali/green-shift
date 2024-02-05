@@ -1,6 +1,7 @@
 import React from "react";
 import DynamicMap from "../components/DynamicMap";
 import { useState } from "react";
+import styles from "../styles/map.css";
 
 const MapView = () => {
   const [selectedCity, setSelectedCity] = useState("Berlin");
@@ -39,42 +40,58 @@ const MapView = () => {
 
   return (
     <div>
-      <div className="searchbar">
-        {/* Add your search bar implementation here */}
-        <input type="text" placeholder="Search..." />
-        <select
-          id="location"
-          name="location"
-          value={selectedCity}
-          onChange={handleCityChange}
-        >
-          <option value="Berlin">Berlin</option>
-          <option value="Hamburg">Hamburg</option>
-          <option value="Bremen">Bremen</option>
-          <option value="London">London</option>
-        </select>
-        <select id="distance" name="distance">
-          <option value="distance">5km</option>
-          <option value="distance">10km</option>
-          <option value="distance">15km</option>
-          <option value="distance">20km</option>
-        </select>
-        <select id="priceRange" name="priceRange">
-          <option value="priceRange">€</option>
-          <option value="priceRange">€€</option>
-          <option value="priceRange">€€€</option>
-          <option value="priceRange">€€€€</option>
-        </select>
-        <select id="category" name="category">
-          <option value="art">Art</option>
-          <option value="music">Literature</option>
-          <option value="food">Pottery</option>
-          <option value="other">Art Workshops</option>
-        </select>
-        <button onClick={handleSearch}>Search</button>
+      <div className="rightText">
+        <p>
+          There is more to experience in the city you are living in than only
+          big companies! <br /> GreenShift helps you discover the future of
+          retail in inner cities in which small,
+          <br /> sustainable brands are part of a unique and equal shopping
+          experience.
+        </p>
       </div>
-      <div style={{ width: "100%", height: "400px" }}>
-        <DynamicMap position={position} key={mapKey} />
+      <div className="map">
+        <div className="searchbar">
+          {/* Add your search bar implementation here */}
+          <input type="text" placeholder="Search..." />
+          <select
+            id="location"
+            name="location"
+            value={selectedCity}
+            onChange={handleCityChange}
+          >
+            <option value="Berlin">Berlin</option>
+            <option value="Hamburg">Hamburg</option>
+            <option value="Bremen">Bremen</option>
+            <option value="London">London</option>
+          </select>
+          <select id="distance" name="distance">
+            <option value="distance">5km</option>
+            <option value="distance">10km</option>
+            <option value="distance">15km</option>
+            <option value="distance">20km</option>
+          </select>
+          <select id="priceRange" name="open right now">
+            <option value="priceRange">Yes</option>
+            <option value="priceRange">No</option>
+          </select>
+          <select id="category" name="category">
+            <option value="art">Art</option>
+            <option value="music">Literature</option>
+            <option value="food">Pottery</option>
+            <option value="other">Art Workshops</option>
+          </select>
+          <button onClick={handleSearch}>Search</button>
+        </div>
+        <div className="listDiv">
+          <div className="list">
+            <h3>Results</h3>
+          </div>
+          <div className="listMapDiv">
+            <div style={{ width: "100%", height: "400px" }} className="mapDiv">
+              <DynamicMap position={position} key={mapKey} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

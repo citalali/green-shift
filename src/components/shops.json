@@ -7,7 +7,8 @@
       "picture": "https://image.jimcdn.com/app/cms/image/transf/none/path/s3f1fa6d7a086e60a/image/ib6a4baeeebe01983/version/1552586154/image.png",
       "description": "Ihr findet bei uns neben einem Bio-Vollsortiment auch einen Imbiss, Sitzgelegenheiten im Freien und ein paar weitere Überraschungen.",
       "website": "https://www.aehrensache-berlin.de/",
-      "funFact": "Wir haben immer von Montags bis Samstag ab 7:30 Uhr geöffnet."
+      "funFact": "Wir haben immer von Montags bis Samstag ab 7:30 Uhr geöffnet.",
+      "icon": "jewleryIcon"
     },
     {
       "name": "Keller Kreuzberg",
@@ -16,7 +17,8 @@
       "picture": "https://kellerkreuzberg.com/cdn/shop/files/KK-color.png?v=1622900951&width=500",
       "description": "Keller Kreuzberg is a queer focused & sex positive store featuring LGBTQIA+ designers and allies from across the world.",
       "website": "https://kellerkreuzberg.com/",
-      "funFact": "We can support young artists with price development as well as printing. We have also an extra room for exhibitions, pop-ups or production."
+      "funFact": "We can support young artists with price development as well as printing. We have also an extra room for exhibitions, pop-ups or production.",
+      "icon": "bookIcon"
     },
     {
       "name": "She said",
@@ -25,7 +27,8 @@
       "picture": "data:image/png;base64,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",
       "description": "She said ist eine Buchhandlung für Autorinnen und queere Autor*innen und ein specialty coffee shop in Berlin Neukölln.",
       "website": "https://www.shesaid.de/",
-      "funFact": "Mo-Fr 10-19 Uhr, Sa 10-18 Uhr"
+      "funFact": "Mo-Fr 10-19 Uhr, Sa 10-18 Uhr",
+      "icon": "potteryIcon"
     },
     {
       "name": "and one more Shop",
@@ -34,7 +37,58 @@
       "picture": "https://example.com/one-more-shop.jpg",
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
-      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!"
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "artIcon"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.51, "lng": 13.47 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "paintingIcon"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.55, "lng": 13.437 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "bookIcon"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.52, "lng": 13.37 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "potteryIcon"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.52, "lng": 13.4 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "paintingIcon"
+    },
+    {
+      "name": "and one more Shop",
+      "address": "Hauptstr. 12",
+      "position": { "lat": 52.5, "lng": 13.347 },
+      "picture": "https://example.com/one-more-shop.jpg",
+      "description": "Indulge in a shopping experience like no other at and one more Shop.",
+      "website": "https://www.one-more-shop.com",
+      "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
+      "icon": "artIcon"
     }
   ]
 }

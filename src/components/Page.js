@@ -4,7 +4,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 import "./page.css";
 import logo from "../content/logo.png";
 
-const Page = ({ children }) => {
+const Page = ({ children, showHeader }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -35,9 +35,10 @@ const Page = ({ children }) => {
           <a href="#/about">Login</a>
         </button>
       </nav>
+
       <header>
         <h1>
-          Design <br /> the <strong>future</strong>
+          Design <br /> the <i>future</i>
         </h1>
       </header>
       <div>{children}</div>

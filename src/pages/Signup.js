@@ -1,8 +1,13 @@
 import styles from "./signup.css";
 
 const Signup = () => {
+  const submitForm = (event) => {
+    event.preventDefault();
+    console.log("Form submitted");
+    alert("Thank you for signing up! We will get back to you soon.");
+  };
   return (
-    <div class="blabla">
+    <div class="signupForm">
       <main>
         <h2>Sign Up Form</h2>
         <form class="formSign">
@@ -72,7 +77,7 @@ const Signup = () => {
             className="inputSign"
           />
 
-          <button type="submit" className="signupButton">
+          <button type="submit" className="signupButton" onClick={submitForm}>
             Submit
           </button>
         </form>

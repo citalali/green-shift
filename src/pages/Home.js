@@ -50,17 +50,16 @@ const Home = () => {
         </div>
         <p>
           We are a young, international and passionate design thinking team
-          studying on HPI Potsdam. With backgrounds from psychology, art, film
-          making, law, social and informatics. To bring customers and small
-          business owners together, we created Greenshift, a mapping service
-          where small businesses can create a profile and have their shops
-          displayed on a map for customers to discover. With this, Greenshift
-          helps customers wanting to shop more unique, local and sustainable to
-          navigate through the jungle of big brands and greenwashing to find
-          great products right on their doorstep. Whether app or website,
-          Greenshift shows you where small businesses are in your city, what
-          products they sell, how long they are open and, of course, the fastest
-          way to get there.
+          studying at HPI Potsdam. With backgrounds from psychology, art, film
+          making, law, social work and IT. To bring customers and small business
+          owners together, we created Greenshift, a mapping service where small
+          businesses can create a profile and have their shops displayed on a
+          map for customers to discover. With this, Greenshift helps customers
+          wanting to shop more unique, local and sustainable to navigate through
+          the jungle of big brands and greenwashing to find great products right
+          on their doorstep. Whether app or website, Greenshift shows you where
+          small businesses are in your city, what products they sell, how long
+          they are open and, of course, the fastest way to get there.
         </p>
       </div>
     </>
