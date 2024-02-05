@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.de295e79.css",
-    "main.js": "/static/js/main.bb289287.js",
+    "main.js": "/static/js/main.8b94cced.js",
     "static/media/teamImg.png": "/static/media/teamImg.c9ad384db64a298e57b3.png",
     "static/media/cleo.png": "/static/media/cleo.b4e71f02eb7cc02b8424.png",
     "static/media/landing4.jpg": "/static/media/landing4.9d5c683e3c4804041c99.jpg",
@@ -22,10 +22,10 @@
     "index.html": "/index.html",
     "static/media/Pfeil.svg": "/static/media/Pfeil.ab5202727e80c30308bbd89029ca060e.svg",
     "main.de295e79.css.map": "/static/css/main.de295e79.css.map",
-    "main.bb289287.js.map": "/static/js/main.bb289287.js.map"
+    "main.8b94cced.js.map": "/static/js/main.8b94cced.js.map"
   },
   "entrypoints": [
     "static/css/main.de295e79.css",
-    "static/js/main.bb289287.js"
+    "static/js/main.8b94cced.js"
   ]
 }
