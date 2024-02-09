@@ -18,7 +18,7 @@ const Page = ({ children, showHeader }) => {
       </button>
       <nav className={`navBar ${isMenuOpen ? "open" : ""}`}>
         <button>
-          <a href="/green-shift">
+          <a href="/">
             <img src={logo} alt="icon" height="50" />
           </a>
         </button>

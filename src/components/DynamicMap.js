@@ -7,8 +7,7 @@ import pottery from "../content/shirt.png";
 import book from "../content/pottery.png";
 import art from "../content/art.png";
 import painting from "../content/painting.png";
-
-import shopsData from "./shops.json";
+import shopsData from "../data/shops.json";
 
 const DynamicMap = ({ position }) => {
   const iconMap = {

@@ -8,10 +8,11 @@
 .map {
   padding-top: 115px;
 }
+
 .rightText {
   text-align: left;
   font-size: 24px;
-  width: 100%;
+  width: 80%;
   margin-top: -75px;
   padding-bottom: 20px;
 }
@@ -19,7 +20,22 @@
   width: 50%;
   float: left;
   position: relative;
-  left: 50%;
+  left: 70%;
   transform: translateX(-39%);
   color: var(--text-color);
+}
+
+/* Styling for search bar container */
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  width: 50%;
+  margin: 15px auto; /* Center the search bar */
+}
+
+/* Hover effect for button within the search bar */
+.searchBar button:hover {
+  background-color: #21618c;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import DynamicMap from "../components/DynamicMap";
 import { useState } from "react";
-import styles from "../styles/map.css";
+import "../styles/map.css";
 
 const MapView = () => {
   const [selectedCity, setSelectedCity] = useState("Berlin");
@@ -12,7 +12,6 @@ const MapView = () => {
     const selectedValue = event.target.value;
     setSelectedCity(selectedValue);
 
-    // Update position based on the selected city (You need to define the coordinates for each city)
     switch (selectedValue) {
       case "Berlin":
         setPosition({ lat: 52.52, lng: 13.405 });
@@ -27,14 +26,12 @@ const MapView = () => {
         setPosition({ lat: 51.509865, lng: -0.118092 });
         break;
       default:
-        setPosition({ lat: 52.52, lng: 13.405 }); // Default to Berlin coordinates
+        setPosition({ lat: 52.52, lng: 13.405 }); // Default to Berlin
     }
   };
 
   const handleSearch = () => {
-    setMapKey(mapKey + 1); // Force re-render
-    // Handle the search logic if needed
-    // You can update the map based on other search parameters
+    setMapKey(mapKey + 1); // force re-render
     console.log("Search button clicked");
   };
 
@@ -51,7 +48,6 @@ const MapView = () => {
       </div>
       <div className="map">
         <div className="searchbar">
-          {/* Add your search bar implementation here */}
           <input type="text" placeholder="Search..." />
           <select
             id="location"

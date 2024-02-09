@@ -1,4 +1,4 @@
-import cleo from "./cleo.png";
+import cleo from "../content/cleo.png";
 import ArtistsView from "../components/ArtistsView";
 
 const Artists = () => {

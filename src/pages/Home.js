@@ -1,6 +1,3 @@
-import google from "./googlePlay.avif";
-import appstore from "./appStore.png";
-import styles from "./home.css";
 import landing1 from "../content/landing1.jpg";
 import landing2 from "../content/landing2.png";
 import landing3 from "../content/landing3.jpg";
@@ -8,6 +5,7 @@ import landing4 from "../content/landing4.jpg";
 import teamImg from "../content/teamImg.png";
 import pfeil from "../content/Pfeil.svg";
 import circles from "../content/circles.svg";
+import "../styles/home.css";
 
 const Home = () => {
   return (

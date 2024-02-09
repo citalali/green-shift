@@ -1,5 +1,5 @@
 import React from "react";
-import shopsData from "./shops.json";
+import shopsData from "../data/shops.json";
 
 const ArtistsView = () => {
   return (

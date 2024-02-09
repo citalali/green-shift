@@ -1,5 +1,3 @@
-import square from "./outlinedSquare.svg";
-import cone from "./hut.svg";
 import styles from "../styles/login.css";
 
 const About = () => {

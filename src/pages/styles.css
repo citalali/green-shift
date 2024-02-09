@@ -36,20 +36,6 @@
   justify-content: center;
 }
 
-/* Styling for search bar container */
-.searchBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  margin: 15px auto; /* Center the search bar */
-}
-
-/* Hover effect for button within the search bar */
-.searchBar button:hover {
-  background-color: #21618c;
-}
-
 /* Styling for the footer section */
 .footer {
   margin-top: 20px;
