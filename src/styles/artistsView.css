@@ -1,0 +1,46 @@
+.artistsDiv {
+  display: flex;
+  margin-bottom: 5px;
+  padding: 1%;
+  width: 95%;
+  max-height: 100%;
+  border: 1px solid #000000;
+  position: relative;
+}
+
+.leftInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.rightImg {
+  flex: 1;
+  padding: 10px;
+  position: relative;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rightImg button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: azure;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.rightImg button:first-child {
+  left: 10px;
+}
+
+.rightImg button:last-child {
+  right: 10px;
+}

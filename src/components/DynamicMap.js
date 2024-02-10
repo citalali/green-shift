@@ -33,7 +33,7 @@ const DynamicMap = ({ position }) => {
       popupAnchor: [10, -44],
       iconSize: [30, 30],
     }),
-    paitingIcon: L.icon({
+    paintingIcon: L.icon({
       iconUrl: painting,
       iconRetinaUrl: painting,
       iconAnchor: [5, 55],

@@ -8,7 +8,11 @@
       "description": "Ihr findet bei uns neben einem Bio-Vollsortiment auch einen Imbiss, Sitzgelegenheiten im Freien und ein paar weitere Überraschungen.",
       "website": "https://www.aehrensache-berlin.de/",
       "funFact": "Wir haben immer von Montags bis Samstag ab 7:30 Uhr geöffnet.",
-      "icon": "jewleryIcon"
+      "icon": "jewleryIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "Keller Kreuzberg",
@@ -18,7 +22,11 @@
       "description": "Keller Kreuzberg is a queer focused & sex positive store featuring LGBTQIA+ designers and allies from across the world.",
       "website": "https://kellerkreuzberg.com/",
       "funFact": "We can support young artists with price development as well as printing. We have also an extra room for exhibitions, pop-ups or production.",
-      "icon": "artIcon"
+      "icon": "artIcon",
+      "productImgs": [
+        "https://lh3.googleusercontent.com/p/AF1QipOSXmbFLIAwmVH1UGDTkKJNIcKkTCoYD1o6i_H3=s1360-w1360-h1020",
+        "https://lh3.googleusercontent.com/p/AF1QipOvTyQbJtzsT7Z3rTNy1J9Puhunp8w-qXlyKLtq=s1360-w1360-h1020"
+      ]
     },
     {
       "name": "She said",
@@ -28,7 +36,11 @@
       "description": "She said ist eine Buchhandlung für Autorinnen und queere Autor*innen und ein specialty coffee shop in Berlin Neukölln.",
       "website": "https://www.shesaid.de/",
       "funFact": "Mo-Fr 10-19 Uhr, Sa 10-18 Uhr",
-      "icon": "bookIcon"
+      "icon": "bookIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -38,7 +50,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "artIcon"
+      "icon": "artIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -48,7 +64,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "paintingIcon"
+      "icon": "paintingIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -58,7 +78,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "bookIcon"
+      "icon": "bookIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -68,7 +92,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "potteryIcon"
+      "icon": "potteryIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -78,7 +106,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "paintingIcon"
+      "icon": "paintingIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     },
     {
       "name": "and one more Shop",
@@ -88,7 +120,11 @@
       "description": "Indulge in a shopping experience like no other at and one more Shop.",
       "website": "https://www.one-more-shop.com",
       "funFact": "Fun Fact: This shop hosts weekly live music performances, making it a local favorite hangout spot!",
-      "icon": "artIcon"
+      "icon": "artIcon",
+      "productImgs": [
+        "https://flotte-berlin.de/wp-content/uploads/2019/08/%C3%84hrensache.jpg",
+        "https://i0.web.de/image/284/37738284,pd=1.jpg"
+      ]
     }
   ]
 }

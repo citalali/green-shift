@@ -2,6 +2,7 @@ import React from "react";
 import DynamicMap from "../components/DynamicMap";
 import { useState } from "react";
 import "../styles/map.css";
+import ArtistsView from "../components/ArtistsView";
 
 const MapView = () => {
   const [selectedCity, setSelectedCity] = useState("Berlin");
@@ -31,21 +32,20 @@ const MapView = () => {
   };
 
   const handleSearch = () => {
-    setMapKey(mapKey + 1); // force re-render
+    setMapKey(mapKey + 1);
     console.log("Search button clicked");
+  };
+
+  const handleArtistViewClick = (newPosition) => {
+    if (newPosition === position) {
+      return;
+    }
+    setPosition(newPosition);
+    setMapKey(mapKey + 1);
   };
 
   return (
     <div>
-      <div className="rightText">
-        <p>
-          There is more to experience in the city you are living in than only
-          big companies! <br /> GreenShift helps you discover the future of
-          retail in inner cities in which small,
-          <br /> sustainable brands are part of a unique and equal shopping
-          experience.
-        </p>
-      </div>
       <div className="map">
         <div className="searchbar">
           <input type="text" placeholder="Search..." />
@@ -80,7 +80,7 @@ const MapView = () => {
         </div>
         <div className="listDiv">
           <div className="list">
-            <h3>Results</h3>
+            <ArtistsView handleArtistViewClick={handleArtistViewClick} />
           </div>
           <div className="listMapDiv">
             <div style={{ width: "100%", height: "400px" }} className="mapDiv">

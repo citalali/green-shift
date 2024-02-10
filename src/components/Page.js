@@ -29,9 +29,6 @@ const Page = ({ children, showHeader }) => {
           <a href="#/signup">Sign Up</a>
         </button>
         <button>
-          <a href="#/artists">Discover</a>
-        </button>
-        <button>
           <a href="#/about">Login</a>
         </button>
       </nav>
