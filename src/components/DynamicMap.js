@@ -2,46 +2,54 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import heart from "../content/jewlery.png";
-import pottery from "../content/shirt.png";
-import book from "../content/pottery.png";
+import jewlery from "../content/jewlery.png";
+import shirt from "../content/shirt.png";
+import pottery from "../content/pottery.png";
 import art from "../content/art.png";
 import painting from "../content/painting.png";
+import book from "../content/book.png";
 import shopsData from "../data/shops.json";
 
 const DynamicMap = ({ position }) => {
   const iconMap = {
     jewleryIcon: L.icon({
-      iconUrl: heart,
-      iconRetinaUrl: heart,
+      iconUrl: jewlery,
+      iconRetinaUrl: jewlery,
       iconAnchor: [5, 55],
       popupAnchor: [10, -44],
       iconSize: [30, 30],
     }),
     potteryIcon: L.icon({
       iconUrl: pottery,
-      iconRetinaUrl: heart,
-      iconAnchor: [5, 55],
-      popupAnchor: [10, -44],
-      iconSize: [30, 30],
-    }),
-    bookIcon: L.icon({
-      iconUrl: book,
-      iconRetinaUrl: heart,
+      iconRetinaUrl: pottery,
       iconAnchor: [5, 55],
       popupAnchor: [10, -44],
       iconSize: [30, 30],
     }),
     artIcon: L.icon({
       iconUrl: art,
-      iconRetinaUrl: heart,
+      iconRetinaUrl: art,
       iconAnchor: [5, 55],
       popupAnchor: [10, -44],
       iconSize: [30, 30],
     }),
-    paintingIcon: L.icon({
+    paitingIcon: L.icon({
       iconUrl: painting,
-      iconRetinaUrl: heart,
+      iconRetinaUrl: painting,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    shirtIcon: L.icon({
+      iconUrl: shirt,
+      iconRetinaUrl: shirt,
+      iconAnchor: [5, 55],
+      popupAnchor: [10, -44],
+      iconSize: [30, 30],
+    }),
+    bookIcon: L.icon({
+      iconUrl: book,
+      iconRetinaUrl: book,
       iconAnchor: [5, 55],
       popupAnchor: [10, -44],
       iconSize: [30, 30],
