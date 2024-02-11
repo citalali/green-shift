@@ -28,7 +28,7 @@ const ArtistsView = ({ handleArtistViewClick }) => {
   };
 
   return (
-    <div>
+    <div style={{ height: "100%", overflowY: "auto" }}>
       {shopsData.shops.map((shop, index) => (
         <div
           key={index}
@@ -64,6 +64,7 @@ const ArtistsView = ({ handleArtistViewClick }) => {
               src={shop.productImgs[currentImageIndexes[index]]}
               alt={shop.name}
               className="productImg"
+              // add img size
             />
             <button
               onClick={() => {

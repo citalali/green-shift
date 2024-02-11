@@ -8,6 +8,11 @@ const MapView = () => {
   const [selectedCity, setSelectedCity] = useState("Berlin");
   const [position, setPosition] = useState({ lat: 52.52, lng: 13.405 }); // Default to Berlin coordinates
   const [mapKey, setMapKey] = useState(1); // Add a key to force re-render
+  const [isShopOpen, setIsShopOpen] = useState(false);
+
+  const handleSwitchChange = () => {
+    setIsShopOpen(!isShopOpen);
+  };
 
   const handleCityChange = (event) => {
     const selectedValue = event.target.value;
@@ -49,6 +54,7 @@ const MapView = () => {
       <div className="map">
         <div className="searchbar">
           <input type="text" placeholder="Search..." />
+          <label htmlFor="location"></label>
           <select
             id="location"
             name="location"
@@ -60,16 +66,26 @@ const MapView = () => {
             <option value="Bremen">Bremen</option>
             <option value="London">London</option>
           </select>
+          <label htmlFor="distance"></label>
           <select id="distance" name="distance">
             <option value="distance">5km</option>
             <option value="distance">10km</option>
             <option value="distance">15km</option>
             <option value="distance">20km</option>
           </select>
-          <select id="priceRange" name="open right now">
-            <option value="priceRange">Yes</option>
-            <option value="priceRange">No</option>
-          </select>
+
+          <label htmlFor="isOpenSwitch"></label>
+          <div className="switch-container">
+            <input
+              type="checkbox"
+              id="isOpenSwitch"
+              checked={isShopOpen}
+              onChange={handleSwitchChange}
+            />
+            <span className="switch"></span>
+          </div>
+
+          <label htmlFor="category"></label>
           <select id="category" name="category">
             <option value="art">Art</option>
             <option value="music">Literature</option>
@@ -83,7 +99,7 @@ const MapView = () => {
             <ArtistsView handleArtistViewClick={handleArtistViewClick} />
           </div>
           <div className="listMapDiv">
-            <div style={{ width: "100%", height: "400px" }} className="mapDiv">
+            <div className="mapDiv">
               <DynamicMap position={position} key={mapKey} />
             </div>
           </div>

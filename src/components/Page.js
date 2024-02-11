@@ -40,25 +40,6 @@ const Page = ({ children, showHeader }) => {
       </header>
       <div>{children}</div>
       <Outlet />
-      <footer>
-        <ul>
-          <li>
-            <a href="#" className="footer">
-              Impressum
-            </a>
-          </li>
-          <li>
-            <a href="#" className="footer">
-              Blabla
-            </a>
-          </li>
-          <li>
-            <a href="#" className="footer">
-              Another Thing
-            </a>
-          </li>
-        </ul>
-      </footer>
     </div>
   );
 };
