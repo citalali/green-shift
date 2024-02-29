@@ -123,3 +123,33 @@ input:checked + .switch {
 label {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .map {
+    padding-top: 10px;
+  }
+
+  .listDiv {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgba(14, 107, 18, 0.114);
+    padding: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .list,
+  .listMapDiv {
+    flex: 1; /* Each takes up the full width */
+    height: auto; /* Adjusted for content height */
+  }
+  .listMapDiv {
+    order: -1; /* Set the order to -1 to place it on top */
+    display: none;
+  }
+
+  .mapDiv {
+    width: 200%;
+    max-height: 200%;
+  }
+}
